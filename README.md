@@ -1,4 +1,4 @@
-   # [Deploying Applications on an AWS EKS Cluster](https://github.com/Shyamalenduojha17/DemoBlazerApp-with-EKS): [Step-by-Step Setup Using EC2 Instance](
+   # [Deploying Applications on an AWS EKS Cluster](https://github.com/Shyamalenduojha17/DemoBlazerApp-with-EKS): [Step-by-Step Setup Using EC2 Instance](https://github.com/Shyamalenduojha17/EC2_EKS_Acess/blob/master/README.md)
 
 ## Prerequities:
    - Create IAM role
