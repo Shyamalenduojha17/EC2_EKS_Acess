@@ -7,3 +7,12 @@
    - Install Eksctl
    - Install awscli
    - Config IAM OIDC Provider
+### 1. Create IAM role:
+>  Open the IAM console at https://console.aws.amazon.com/iam/.
+
+> In the left navigation pane, choose Roles.
+
+> On the Roles page, choose Create role.
+
+> 
+
