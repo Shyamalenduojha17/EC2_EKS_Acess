@@ -1,4 +1,4 @@
-# Setup Eks to deploy app. using AWS EC2
+# Deploying Applications on an AWS EKS Cluster: Step-by-Step Setup Using EC2 Instances
 
 ## Prerequities:
    - Create IAM role
