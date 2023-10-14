@@ -10,26 +10,26 @@
    - Create EKS Cluster using eksctl commands
    - Config IAM OIDC Provider
 ### 1. Create IAM role:
->  Open the IAM console at https://console.aws.amazon.com/iam/.
+>  Open the **IAM console** at https://console.aws.amazon.com/iam/.
 
-> In the left navigation pane, choose Roles.
+> In the left navigation pane, choose **Roles**.
 
-> On the Roles page, choose Create role.
+> On the Roles page, choose **Create role**.
 
 
-> On the Select trusted entity page, do the following: <br>
-     a. In the Trusted entity type section, choose AWS Service <br>
-     b. For Service or Use case, choose EC2.  (because we are going to acces EKS through EC2)  <br>
-     c. Choose Next <br>
+> On the **Select trusted entity** page, do the following: <br>
+     a. In the **Trusted entity type** section, choose **AWS Service** <br>
+     b. For **Service or Use case**, choose **EC2**.  (because we are going to acces EKS through EC2)  <br>
+     c. Choose** Next** <br>
 
      
-> On the Add permissions page, do the following: <br>
-     a. On the Filter policies box, enter AdministratorAccess  <br>
-     b. Select the check box to the left of the AdministratorAccess returned in the search.  <br>
-     c. Choose Next.  <br>
+> On the **Add permissions** page, do the following: <br>
+     a. On the Filter **policies** box, enter **AdministratorAccess**  <br>
+     b. Select the check box to the left of the **AdministratorAccess** returned in the search.  <br>
+     c. Choose **Next.**  <br>
 
-> On the Name, review, and create page, do the following: <br>
-     a. For Role name, enter a unique name for your role, such as AmazonEKS_EBS_CSI_DriverRole.  <br>
+> On the **Name, review, and create** page, do the following: <br>
+     a. For **Role** name, enter a unique name for your role, such as **AmazonEKS_Access_Role** <br>
      b. Under Add tags (Optional), add metadata to the role by attaching tags as key–value pairs. <br>
      c. Choose Create role. <br>
 
